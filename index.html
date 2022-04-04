@@ -56,7 +56,7 @@
 
   <!-- Jumbotron -->
   <section class="jumbotron text-center">
-    <img src="img/profileimg.webp" alt="Ikhsan" width="180" class="rounded-circle shadow-lg" data-aos="flip-up" />
+    <img src="img/profileimg.webp" alt="Ikhsan" width="180" class="rounded-circle shadow-lg" data-aos="flip-down" />
     <h1 class="display-4 fw-normal" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">Ikhsan <i
         class="bi bi-code-slash"></i></h1>
     <p class="lead fw-normal" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">College Student | D3 -
@@ -255,7 +255,7 @@
 
   <!-- footer -->
   <footer class="bg-dark text-white text-center pb-5">
-    <p class="text-warning">Created with <i class="bi bi-heart-fill"></i> by <a
+    <p class="text-warning" data-aos="fade-up">Created with <i class="bi bi-heart-fill"></i> by <a
         href="https://www.instagram.com/nashkyverz/" class="text-warning fw-bold">Ikhsan</a></p>
   </footer>
   <!-- End Footer -->
@@ -268,7 +268,9 @@
   <!-- Script Animate On Scroll -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      once: true
+    });
   </script>
 
   <!-- Script Javascript form with Google Sheet -->
